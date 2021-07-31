@@ -1,0 +1,20 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -112 32 -112 -80
+LINE Normal -16 -32 -112 32
+LINE Normal -112 -80 -16 -32
+LINE Normal 16 -32 -16 -32
+LINE Normal -160 -64 -112 -64
+LINE Normal -160 16 -112 16
+TEXT 16 -48 Left 1 Vo
+TEXT -160 -80 Left 1 VINN
+TEXT -160 0 Left 1 VINP
+PIN -160 -64 NONE 8
+PINATTR PinName VINN
+PINATTR SpiceOrder 1
+PIN -160 16 NONE 8
+PINATTR PinName VINP
+PINATTR SpiceOrder 2
+PIN 16 -32 NONE 8
+PINATTR PinName Vout
+PINATTR SpiceOrder 3
